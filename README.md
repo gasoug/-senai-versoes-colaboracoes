@@ -1,0 +1,2 @@
+# Senai-versoes-colaboracoes
+- Exercícios
