@@ -1,2 +1,2 @@
-# Senai-versoes-colaboracoes
+# Senai-versões-colaboracoes
 - Exercícios
