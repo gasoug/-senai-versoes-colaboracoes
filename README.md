@@ -2,7 +2,7 @@
 ### Principais comandos utilizados para gerenciar o versionamento deste código ###
 - ```git init``` para inciar a edição localmente;
 - em seguida fazer configurações globais: ```git config --global user.name "usuario" e git config --global user.email "seu email do github"```;
-- ```git remote add origin 'link https do repositório'```;
+- ```git remote add origin 'link https do repositório'``` ou ```git clone 'link https do repositório'```;
 - criar ou alterar um arquivo existente e em seguida dar o comando ```git status``` para listá-los;
 - em seguida o comando ```git add .``` para adicionar todos os arquivos localmente;
 - ```git status``` novamente para verificar se os arquivos foram adicionados mudando assim seu status de vermelho para verde;
