@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-05T18:55:37.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0d49zcA1hQxIR-NZRzlJ" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-05T19:16:36.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="J2VR0aJV18eLtGP5FmK7" version="15.0.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2463" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1014" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
         <mxCell id="uxp9zhx9pDXaW7esicIj-4" value="&amp;nbsp;DATA" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="210" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="uxp9zhx9pDXaW7esicIj-5" value="DATA EVENTO POSTERIOR A ATUAL?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uxp9zhx9pDXaW7esicIj-5" value="DATA EVENTO &amp;gt; ATUAL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="25" y="310.75" width="125" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="uxp9zhx9pDXaW7esicIj-8" value="REALIZAR CADASTRO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uxp9zhx9pDXaW7esicIj-8" value="REALIZAR CADASTRO&lt;br&gt;E INCREMENTAR NÚMERO DE PARTICIPANTES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470.69" y="1110" width="135" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="uxp9zhx9pDXaW7esicIj-9" value="PARTICIPANTE MAIOR ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uxp9zhx9pDXaW7esicIj-9" value="IDADE &amp;gt;= 18" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="25" y="720" width="124.5" height="124.5" as="geometry" />
         </mxCell>
         <mxCell id="uxp9zhx9pDXaW7esicIj-12" value="&lt;font style=&quot;font-size: 10px&quot;&gt;NÃO FOI POSSIVEL REALIZAR O CADASTRO IDADE INFERIOR A 18 ANOS!&lt;/font&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,9 +76,9 @@
             <mxPoint x="240" y="973" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxp9zhx9pDXaW7esicIj-32" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uxp9zhx9pDXaW7esicIj-19">
+        <mxCell id="uxp9zhx9pDXaW7esicIj-32" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uxp9zhx9pDXaW7esicIj-15" target="uxp9zhx9pDXaW7esicIj-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1030" as="sourcePoint" />
+            <mxPoint x="90" y="1040" as="sourcePoint" />
             <mxPoint x="230" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -159,6 +159,24 @@
             <mxPoint x="-100" y="800" as="sourcePoint" />
             <mxPoint x="-50" y="750" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-50" value="NÃO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="341.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-51" value="SIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-52" value="NÃO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-55" value="NÃO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="174.82999999999998" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-56" value="SIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="860" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uxp9zhx9pDXaW7esicIj-57" value="SIM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1050" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
